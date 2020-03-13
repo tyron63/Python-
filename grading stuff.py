@@ -1,12 +1,10 @@
 import math
 
 first_name = (str(input("type in your first name:")))
-if first_name is complex:
-    print("name has a number in")
-    first_name = (str(input("type in your first name:")))
-else:
-    first_name = (str(input("type in your first name:")))
-
+for i in first_name:
+    if i != "":
+        print("Invalid name. You have typed in a number within your name!!")
+    exit()
 surname = (str(input("type in your surname:")))
 exam_mark = (int(input("type in your maths mark:")))
 
